@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rinshad's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0d1117] text-white">
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center px-4 text-center">
+    <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight">Rinshad</h1>
+    <p class="text-xl md:text-2xl text-[#00ff88] typewriter" id="typewriter-text"></p>
+    <!-- <p class="mt-4 text-sm text-gray-400">Cybersecurity | CTFs | Red Teaming | Bug Bounties</p> -->
+    <a onclick="scrollToAbout(event)" class="mt-8 inline-block px-6 py-2 border border-[#00ff88] text-[#00ff88] rounded hover:bg-[#00ff88] hover:text-black transition">
+      ↓ Explore
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto px-4 pt-20 scroll-mt-16">
+    <h2 class="text-3xl font-semibold text-[#00ff88] mb-4">About Me</h2>
+    <p class="leading-relaxed text-gray-300 text-lg">
+      I'm a security researcher and CTF player passionate about offensive security, red teaming, and vulnerability analysis.
+      I thrive in lab environments, exploit Active Directory, and contribute to the security community through writeups and research.
+    </p>
+  </section>
+
+  <!-- Social Links -->
+  <section class="max-w-4xl mx-auto px-4 pt-20 pb-20">
+    <h2 class="text-3xl font-semibold text-[#00ff88] mb-8">Connect with Me</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+      <a href="https://linkedin.com/in/rinshadkkp" target="_blank" class="group flex items-center space-x-3 px-4 py-3 border border-gray-700 rounded transition-colors">
+        <img src="/images/Linkedin.png" alt="LinkedIn" class="w-7 h-7" />
+        <span class="text-gray-300 font-medium group-hover:text-[#00ff88]">LinkedIn</span>
+      </a>
+
+      <a href="https://github.com/rinshad-p" target="_blank" class="group flex items-center space-x-3 px-4 py-3 border border-gray-700 rounded transition-colors">
+        <img src="/images/GitHub.png" alt="GitHub" class="w-7 h-7" />
+        <span class="text-gray-300 font-medium group-hover:text-[#00ff88]">GitHub</span>
+      </a>
+
+      <a href="https://x.com/rin5h4d" target="_blank" class="group flex items-center space-x-3 px-4 py-3 border border-gray-700 rounded transition-colors">
+        <img src="/images/X.png" alt="X" class="w-6 h-6" />
+        <span class="text-gray-300 font-medium group-hover:text-[#00ff88]">X</span>
+      </a>
+
+      <a href="https://tryhackme.com/p/cykick" target="_blank" class="group flex items-center space-x-3 px-4 py-3 border border-gray-700 rounded transition-colors">
+        <img src="/images/TryHackMe.png" alt="TryHackMe" class="w-6 h-6" />
+        <span class="text-gray-300 font-medium group-hover:text-[#00ff88]">TryHackMe</span>
+      </a>
+
+      <a href="https://app.hackthebox.com/profile/875515" target="_blank" class="group flex items-center space-x-3 px-4 py-3 border border-gray-700 rounded transition-colors">
+        <img src="/images/HackTheBox.png" alt="Hack The Box" class="w-7 h-7" />
+        <span class="text-gray-300 font-medium group-hover:text-[#00ff88]">Hack The Box</span>
+      </a>
+
+      <a href="https://portswigger.net/users/rinshadp" target="_blank" class="group flex items-center space-x-3 px-4 py-3 border border-gray-700 rounded transition-colors">
+        <img src="/images/PortSwigger.png" alt="PortSwigger" class="w-6 h-6" />
+        <span class="text-gray-300 font-medium group-hover:text-[#00ff88]">PortSwigger</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#0d1117] border-t border-gray-800 px-4 py-6 text-center text-sm text-gray-500 font-mono">
+    <div class="max-w-4xl mx-auto">
+      <p class="text-[#00ff88]">rinshad@RaaS:~$ <span class="text-white">exit</span></p>
+      <p class="mt-2">Connection closed — Have a secure day ☠️</p>
+      <p class="mt-1 text-xs text-gray-600">© 2025 Rinshad. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
